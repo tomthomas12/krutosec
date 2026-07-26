@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <Link href="/" className="flex items-center gap-2.5">
-              <Image src="/logo.png" alt="Krutosec" width={34} height={34} className="rounded-sm" />
+              <Image src="/logo.png" alt="Krutosec" width={48} height={48} className="h-12 w-12 object-contain" />
               <span className="font-display text-lg text-sand">Krutosec</span>
             </Link>
             <p className="mt-3 max-w-[220px] text-sm text-mist/80">

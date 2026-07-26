@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-sand/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5">
         <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <Image src="/logo.png" alt="Krutosec" width={36} height={36} className="rounded-sm" priority />
+          <Image src="/logo.png" alt="Krutosec" width={56} height={56} className="h-14 w-14 object-contain" priority />
           <span className="font-display text-lg font-medium tracking-tight text-ink">
             Krutosec
           </span>
