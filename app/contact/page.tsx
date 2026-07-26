@@ -40,7 +40,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-display text-[15px] font-medium text-ink">Phone</p>
-                  <p className="text-[14px] text-ink/60">+44 20 0000 0000</p>
+                  <p className="text-[14px] text-ink/60">+44 7533 793002</p>
+                  <p className="text-[14px] text-ink/60">+91 73561 84469</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -48,13 +49,10 @@ export default function ContactPage() {
                   <MapPin size={18} />
                 </div>
                 <div>
-                  <p className="font-display text-[15px] font-medium text-ink">Office</p>
-                  <p className="text-[14px] text-ink/60">United Kingdom (remote-first, global clients)</p>
+                  <p className="font-display text-[15px] font-medium text-ink">Offices</p>
+                  <p className="text-[14px] text-ink/60">Manchester, United Kingdom</p>
+                  <p className="text-[14px] text-ink/60">Bangalore, India</p>
                 </div>
-              </div>
-
-              <div className="mt-8 h-52 rounded-md border border-ink/10 bg-sandDeep/60 flex items-center justify-center">
-                <span className="font-mono text-xs uppercase tracking-wider text-ink/40">Map placeholder</span>
               </div>
             </div>
           </Reveal>
