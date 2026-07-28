@@ -8,7 +8,7 @@ import { Menu, X, ShieldCheck } from "lucide-react";
 const links = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
-  { href: "/packages", label: "PT Packages" },
+  { href: "/packages", label: "Pentest Packages" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
@@ -18,9 +18,9 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-sand/80 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
         <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <Image src="/logo.png" alt="Krutosec" width={56} height={56} className="h-14 w-14 object-contain" priority />
+          <Image src="/logo.png" alt="Krutosec" width={88} height={88} className="h-[88px] w-[88px] object-contain" priority />
           <span className="font-display text-lg font-medium tracking-tight text-ink">
             Krutosec
           </span>

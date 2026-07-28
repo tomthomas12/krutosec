@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <Link href="/" className="flex items-center gap-2.5">
-              <Image src="/logo.png" alt="Krutosec" width={48} height={48} className="h-12 w-12 object-contain" />
+              <Image src="/logo.png" alt="Krutosec" width={64} height={64} className="h-16 w-16 object-contain" />
               <span className="font-display text-lg text-sand">Krutosec</span>
             </Link>
             <p className="mt-3 max-w-[220px] text-sm text-mist/80">
@@ -32,7 +32,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               <li><Link href="/services" className="hover:text-sand">Penetration Testing</Link></li>
               <li><Link href="/services" className="hover:text-sand">Secure Development</Link></li>
-              <li><Link href="/packages" className="hover:text-sand">PT Packages</Link></li>
+              <li><Link href="/packages" className="hover:text-sand">Pentest Packages</Link></li>
               <li><Link href="/services" className="hover:text-sand">LLM / AI Security</Link></li>
             </ul>
           </div>
