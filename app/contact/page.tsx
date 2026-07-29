@@ -78,7 +78,16 @@ export default function ContactPage() {
                     placeholder="jane@company.com"
                   />
                 </div>
-                <div className="sm:col-span-2">
+                <div className="sm:col-span-1">
+                  <label className="font-mono text-[11px] uppercase tracking-wider text-ink/55">Phone</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    className="mt-2 w-full rounded-sm border border-ink/15 bg-sand/40 px-3.5 py-2.5 text-[14px] text-ink outline-none focus:border-teal"
+                    placeholder="+44 7000 000000"
+                  />
+                </div>
+                <div className="sm:col-span-1">
                   <label className="font-mono text-[11px] uppercase tracking-wider text-ink/55">Company</label>
                   <input
                     type="text"
@@ -88,7 +97,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div className="sm:col-span-2">
-                  <label className="font-mono text-[11px] uppercase tracking-wider text-ink/55">What do you need tested?</label>
+                  <label className="font-mono text-[11px] uppercase tracking-wider text-ink/55">What services do you need?</label>
                   <textarea
                     name="message"
                     rows={5}
