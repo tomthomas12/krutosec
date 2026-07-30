@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               <li><Link href="/services" className="hover:text-sand">Penetration Testing</Link></li>
               <li><Link href="/services" className="hover:text-sand">Secure Development</Link></li>
-              <li><Link href="/packages" className="hover:text-sand">Pentest Packages</Link></li>
+              <li><Link href="/packages" className="hover:text-sand">Packages</Link></li>
               <li><Link href="/services" className="hover:text-sand">LLM / AI Security</Link></li>
             </ul>
           </div>

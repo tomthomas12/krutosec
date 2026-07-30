@@ -7,7 +7,7 @@ import { Menu, X, ShieldCheck } from "lucide-react";
 const links = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
-  { href: "/packages", label: "Pentest Packages" },
+  { href: "/packages", label: "Packages" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
