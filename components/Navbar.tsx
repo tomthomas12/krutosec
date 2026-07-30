@@ -19,8 +19,11 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-sand/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
-        <Link href="/" className="flex items-center" onClick={() => setOpen(false)}>
+        <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
           <Image src="/logo.png" alt="Krutosec" width={88} height={88} className="h-[88px] w-[88px] object-contain" priority />
+          <span className="font-display text-lg font-medium tracking-tight text-ink">
+            Krutosec
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
