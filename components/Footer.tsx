@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Linkedin, Twitter, Github } from "lucide-react";
 
 export default function Footer() {
@@ -8,9 +7,9 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <Link href="/" className="flex items-center gap-2.5">
-              <Image src="/logo.png" alt="Krutosec" width={64} height={64} className="h-16 w-16 object-contain" />
-              <span className="font-display text-lg text-sand">Krutosec</span>
+            <Link href="/" className="flex items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo-footer.svg" alt="Krutosec" width={180} height={60} className="h-10 w-auto" />
             </Link>
             <p className="mt-3 max-w-[220px] text-sm text-mist/80">
               Secure. Educate. Empower. Offensive security and secure development for teams that can&apos;t afford to guess.
