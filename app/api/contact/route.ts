@@ -3,9 +3,9 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 
 const CONTACT_TO = "hello@krutosec.com";
-// Resend's shared sandbox sender works without verifying a domain.
-// Once krutosec.com is verified in Resend, switch this to e.g. "Krutosec <hello@krutosec.com>".
-const FROM_ADDRESS = "Krutosec Website <onboarding@resend.dev>";
+// Requires krutosec.com to be a verified sending domain in Resend.
+// Until verification completes, sends will fail with a Resend domain-not-verified error.
+const FROM_ADDRESS = "Krutosec <hello@krutosec.com>";
 
 function escapeHtml(value: string) {
   return value
