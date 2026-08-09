@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 
@@ -43,6 +43,22 @@ export default function ContactPage() {
                   <p className="font-display text-[15px] font-medium text-ink">Phone</p>
                   <p className="text-[14px] text-ink/60">+44 7533 793002</p>
                   <p className="text-[14px] text-ink/60">+91 73561 84469</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-sm bg-teal/10 text-teal">
+                  <MessageCircle size={18} />
+                </div>
+                <div>
+                  <p className="font-display text-[15px] font-medium text-ink">WhatsApp</p>
+                  <a
+                    href="https://wa.me/917356184469"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[14px] text-ink/60 hover:text-teal-dark"
+                  >
+                    Chat with us
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
