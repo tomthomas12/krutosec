@@ -34,8 +34,8 @@ export default function PackagesPage() {
               Penetration Testing Packages
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-[15.5px] leading-relaxed text-ink/70">
-              Three tiers built around how much of your attack surface needs manual coverage —
-              scale up as your product and compliance needs grow.
+              Three tiers built around how much of your attack surface needs manual coverage.
+              Scale up as your product and compliance needs grow.
             </p>
           </Reveal>
         </div>

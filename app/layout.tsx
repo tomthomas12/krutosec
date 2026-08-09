@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s | Krutosec",
   },
   description:
-    "Krutosec is an offensive security and secure development partner — web, API, cloud, mobile, and LLM penetration testing with manual, evidence-backed findings.",
+    "Krutosec is an offensive security and secure development partner offering web, API, cloud, mobile, and LLM penetration testing with manual, evidence-backed findings.",
   keywords: [
     "penetration testing",
     "API security testing",

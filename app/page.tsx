@@ -61,7 +61,7 @@ export default function Home() {
 
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-xl text-[16.5px] leading-relaxed text-ink/70">
-              Krutosec secures applications, APIs, cloud infrastructure, mobile apps, and networks —
+              Krutosec secures applications, APIs, cloud infrastructure, mobile apps, and networks,
               through manual, evidence-backed penetration testing, and builds secure software from the
               ground up.
             </p>
@@ -128,7 +128,7 @@ export default function Home() {
                 Krutosec is a team of certified penetration testers and secure-development engineers
                 who think like attackers so your business doesn&apos;t have to find out the hard way.
                 We combine hands-on offensive research with risk assessment and compliance support,
-                so every engagement ends with findings you can actually act on — not a scanner printout.
+                so every engagement ends with findings you can actually act on, not a scanner printout.
               </p>
               <ul className="mt-6 grid grid-cols-2 gap-4">
                 {[
@@ -412,12 +412,12 @@ export default function Home() {
           </Reveal>
 
           <div className="mt-10">
-            <FaqItem q="What is penetration testing?" a="A controlled, authorized attempt to exploit weaknesses in your applications, network, or infrastructure — the same techniques a real attacker would use, performed under a signed scope so nothing is tested without your consent." />
+            <FaqItem q="What is penetration testing?" a="A controlled, authorized attempt to exploit weaknesses in your applications, network, or infrastructure, using the same techniques a real attacker would use, performed under a signed scope so nothing is tested without your consent." />
             <FaqItem q="How long does a test take?" a="Anywhere from 2 days for a PT100 automated-led assessment to several weeks for a PT300 elite engagement, depending on scope. We agree the timeline before work begins." />
-            <FaqItem q="Do you provide reports?" a="Yes — every engagement ends with a severity-ranked report including reproduction steps, evidence, business impact, and remediation guidance." />
+            <FaqItem q="Do you provide reports?" a="Yes, every engagement ends with a severity-ranked report including reproduction steps, evidence, business impact, and remediation guidance." />
             <FaqItem q="What industries do you serve?" a="Fintech, healthcare, SaaS, e-commerce, and AI/LLM-driven products are our most common engagements, though our methodology applies across most software-driven industries." />
             <FaqItem q="Do you sign NDAs?" a="Always. An NDA and rules-of-engagement document are standard before any testing begins." />
-            <FaqItem q="Can you retest after fixes?" a="Yes — retesting confirmed remediations is included in PT200 and PT300 packages, and available as an add-on for PT100." />
+            <FaqItem q="Can you retest after fixes?" a="Yes, retesting confirmed remediations is included in PT200 and PT300 packages, and available as an add-on for PT100." />
           </div>
         </div>
       </section>
@@ -429,7 +429,7 @@ export default function Home() {
           <Reveal>
             <h2 className="font-display text-3xl font-medium text-ink md:text-4xl">Let&apos;s secure your business.</h2>
             <p className="mx-auto mt-4 max-w-lg text-[15px] text-ink/65">
-              Tell us what you&apos;re running, and we&apos;ll scope an assessment that matches your actual risk — not a generic package.
+              Tell us what you&apos;re running, and we&apos;ll scope an assessment that matches your actual risk, not a generic package.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link

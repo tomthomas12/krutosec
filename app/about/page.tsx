@@ -24,7 +24,7 @@ export default function AboutPage() {
             <p className="mt-6 max-w-2xl text-[16px] leading-relaxed text-ink/70">
               Krutosec was founded on a simple idea: security testing should produce evidence, not
               anxiety. We are certified penetration testers and secure-development engineers who
-              combine offensive research with practical risk assessment — so every finding comes with
+              combine offensive research with practical risk assessment, so every finding comes with
               a clear path to fixing it.
             </p>
           </Reveal>
